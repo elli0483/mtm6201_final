@@ -1,0 +1,51 @@
+/* styles.css */
+
+.banner {
+    background-color: #eaf6ff; /* Light blue background color */
+    padding: 20px;
+  }
+  
+  .profile-image {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    border-radius: 50%; /* Make the image round */
+  }
+
+  .reminders-title {
+    color: red;
+  }
+ 
+.btn-lightblue-hover {
+    background-color: #5bc0de; 
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-lightblue-hover:hover {
+    background-color: #007bff; 
+  }
+
+ 
+.footer-icon {
+    color: black; 
+    transition: color 0.3s ease;
+  }
+  
+  .footer-icon:hover {
+    color: #007bff; 
+  }
+
+
+  .list-group-item {
+    background-color: #f8f9fa; 
+  }
+
+  .list-group-item.red-bg {
+    background-color: #ffcccc; 
+  }
+
+  .list-group-item span { 
+    display: inline-block;
+    width: calc(100% - 25px); 
+    text-align: center; 
+  }
